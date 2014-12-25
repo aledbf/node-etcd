@@ -1,4 +1,4 @@
-_          = require 'underscore'
+_          = require '@soficom/underscore'
 Watcher    = require './watcher'
 Client     = require './client'
 HttpsAgent = (require 'https').Agent

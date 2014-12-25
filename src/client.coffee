@@ -1,5 +1,5 @@
 request = require 'request'
-_       = require 'underscore'
+_       = require '@soficom/underscore'
 
 
 # Default options for request library

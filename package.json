@@ -1,6 +1,6 @@
 {
-  "name": "node-etcd",
-  "version": "3.0.2",
+  "name": "@soficom/node-etcd",
+  "version": "3.0.6",
   "description": "etcd library for node.js (etcd v2 api)",
   "licenses": [
     {
@@ -20,7 +20,7 @@
     "url": "http://github.com/stianeikeland/node-etcd.git"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -31,14 +31,16 @@
     "watch": "node_modules/mocha/bin/mocha --compilers coffee:coffee-script --watch"
   },
   "dependencies": {
-    "underscore": "~1.5.2",
-    "request": "~2.44.0"
+    "@soficom/underscore": "latest",
+    "request": "2.x.x"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "mocha": "~1.17.1",
+    "mocha": "2.0.1",
     "should": "~3.1.2",
-    "nock": "~0.27.2"
+    "nock": "0.48.x"
   },
-  "keywords": ["etcd", "raft"]
+  "publishConfig": {
+    "registry": "https://npm.soficom.cl"
+  }
 }
