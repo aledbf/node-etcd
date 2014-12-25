@@ -5,6 +5,7 @@
     "@soficom/underscore": {
       "version": "0.0.3",
       "from": "@soficom/underscore@latest",
+      "resolved": "https://npm.soficom.cl/@soficom%2funderscore/-/underscore-0.0.3.tgz",
       "dependencies": {
         "lodash": {
           "version": "2.4.1",
