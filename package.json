@@ -1,6 +1,6 @@
 {
   "name": "@soficom/node-etcd",
-  "version": "3.0.6",
+  "version": "3.0.9",
   "description": "etcd library for node.js (etcd v2 api)",
   "licenses": [
     {
@@ -36,9 +36,9 @@
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "mocha": "2.0.1",
+    "mocha": "2.1.x",
     "should": "~3.1.2",
-    "nock": "0.48.x"
+    "nock": "0.58.x"
   },
   "publishConfig": {
     "registry": "https://npm.soficom.cl"
